@@ -1,0 +1,8 @@
+1. "netflix-zuul-api-gateway-server" is Gateway through which request and response happens.
+2. "SMC-App" application will gather information from other microservices "SMC-BusinessRequirement" and "SMC-SignupLogin".
+3. "SMC-SignupLogin" responsible for User Credentials.
+4. "SMC-BusinessRequirement" responsible for Business Related Services.
+5. "SMC-EurekaDiscoveryServer" is Discovery server used for Naming server.
+
+## Docker Image on DockerHub Link
+https://hub.docker.com/r/ckatdocker/smcapp-img
